@@ -1,0 +1,72 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"> </script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Personal Portfolio</title>
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Big+Shoulders+Inline+Display:wght@300&display=swap" rel="stylesheet">
+   <link href="stylesheet.css" rel="stylesheet" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <header>
+    <nav id="navbar">
+        <ul>
+          <li> <a class="nav-link" href="#bio">Bio</a></li>
+          <li> <a class="nav-link" href="#projects">Projects</a></li>
+          <li> <a class="nav-link" href="#form">Contact</a></li>
+          <li> <a class="nav-link" href="#social">Social</a></li>
+        </ul>
+    </nav>
+  </header>
+  <main id="main-container">
+    <section id="welcome-section">
+      <h1>Nelson Huynh</h1>
+      <h2>Web Developer</h2>
+    </section>
+    <section id="bio">
+      <div class="box-style">
+        <h3>Bio</h3>
+        <p>
+          Hey!
+          I'm an aspring Web Developer from Canada
+          and have publicly commmitted to the #100DaysofCode Challenge.
+          Anything can be accomplished if you develop good habits and stay consistent! Mindfulness!
+        </p>
+      </div>
+    </section>
+    <section id="projects">
+      <a class="project-tile" href="https://codepen.io/forthehnh/pen/wvzGNbq" target="_blank"> <p>Technical Documentation Page</p></a>
+      <a class="project-tile" href="https://codepen.io/forthehnh/pen/dypYwog" target="_blank"> <p>Product Landing Page</p></a>
+      <a class="project-tile" href="https://codepen.io/forthehnh/pen/dyXEjjW" target="_blank"> <p>Survey Form</p></a>
+      <a class="project-tile" href="https://codepen.io/forthehnh/pen/bGezrLW" target="_blank"> <p>Tribute Page</p></a>
+    </section>
+    <section id="form">
+      <form id="form-container" class="box-style">
+         <label class="label">Name:</label>
+         <input class="form-input" name="name" type="text" placeholder="Enter Your Name" />
+
+         <label class="label">Email:</label>
+         <input class="form-input" name="email" type="email" placeholder="Enter Your Email" />
+
+         <label class="label">Write a Message:</label>
+         <textarea name="textarea" rows="6"></textarea>
+
+         <input id="submit" type="submit" value="Submit"></input>
+       </form>
+    </section>
+  </main>
+  <footer>
+    <section id="social">
+        <a href="https://codepen.io/your-work/" target="_blank"><i class="fa fa-codepen"></i></a>
+        <a id="profile-link" href="https://github.com/fortheHNH" target="_blank"><i class="fa fa-github"></i></a>
+        <a href="https://twitter.com/fortheHNH" target="_blank"><i class="fa fa-twitter"></i></a>
+        <a href="https://forum.freecodecamp.org/u/forthehnh/summary" target="_blank"><i class="fa fa-free-code-camp"></i></a>
+    </section>
+  </footer>
+
+</body>
+
+</html>
